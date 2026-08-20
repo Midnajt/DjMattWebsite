@@ -8,6 +8,17 @@ import { Button } from "@/components/ui/button";
 import { hasSoundcloudConsent, openCookieSettings } from "@/lib/cookie-consent";
 import { registerSoundcloudIframe } from "@/lib/soundcloud-player";
 
+function SoundcloudIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} aria-hidden>
+      <path
+        fill="currentColor"
+        d="M1.8 10.4c.22 0 .4.18.4.4v4.3c0 .22-.18.4-.4.4s-.4-.18-.4-.4v-4.3c0-.22.18-.4.4-.4Zm2.35-1.7c.22 0 .4.18.4.4v7.5c0 .22-.18.4-.4.4s-.4-.18-.4-.4v-7.5c0-.22.18-.4.4-.4Zm2.4-1.15c.22 0 .4.18.4.4v9.8c0 .22-.18.4-.4.4s-.4-.18-.4-.4v-9.8c0-.22.18-.4.4-.4Zm2.4-.55c.22 0 .4.18.4.4v10.9c0 .22-.18.4-.4.4s-.4-.18-.4-.4V7.4c0-.22.18-.4.4-.4Zm2.45.15c.22 0 .4.18.4.4v10.6c0 .22-.18.4-.4.4s-.4-.18-.4-.4V7.55c0-.22.18-.4.4-.4Zm2.55-1.05h.55c3.35.1 5.25 2.2 5.25 5.2 0 2.95-1.95 5.15-5.25 5.25H11.9V7.1h1.05Z"
+      />
+    </svg>
+  );
+}
+
 export function Sets() {
   const { t } = useTranslation();
   const [allowed, setAllowed] = useState(hasSoundcloudConsent);
@@ -33,6 +44,7 @@ export function Sets() {
           rel="noreferrer"
           className="text-accent mb-6 inline-flex items-center gap-1 text-sm font-medium hover:underline"
         >
+          <SoundcloudIcon className="size-8 shrink-0" />
           {t("sets.openSoundcloud")}
           <ExternalLink className="size-3.5" aria-hidden />
         </a>

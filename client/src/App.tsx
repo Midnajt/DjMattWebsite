@@ -44,7 +44,7 @@ export default function App() {
         >
           {t("common.skip")}
         </a>
-        <div className="sticky top-0 z-40">
+        <div className="glass sticky top-0 z-40">
           <ThemeBar />
           <Navbar />
         </div>

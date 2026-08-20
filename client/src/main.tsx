@@ -6,6 +6,11 @@ import App from "@/App";
 import "@/i18n";
 import "@/index.css";
 
+const inAppBrowser = /FBAN|FBAV|FB_IAB|Instagram|Line\/|Messenger/i.test(navigator.userAgent);
+if (inAppBrowser) {
+  document.documentElement.classList.add("in-app-browser");
+}
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider>

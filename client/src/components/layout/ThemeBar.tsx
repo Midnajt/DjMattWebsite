@@ -9,7 +9,7 @@ export function ThemeBar() {
   const isPl = i18n.language.startsWith("pl");
 
   return (
-    <div className="border-b border-white/10 bg-black/70">
+    <div className="border-b border-white/10">
       <div className="mx-auto flex min-h-9 max-w-6xl flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-1.5 sm:px-6">
         <p className="text-muted-foreground shrink-0 text-[11px] tracking-[0.16em] uppercase">
           {t("theme.change")}
