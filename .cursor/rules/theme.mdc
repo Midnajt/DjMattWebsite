@@ -1,0 +1,15 @@
+---
+description: Kolory, presety, DevPanel, dark mode i i18n — edycja przez pliki config
+globs: client/src/config/**
+alwaysApply: false
+---
+
+# Theme i treść
+
+- Kolory, fonty, radius i wariant układu (hero/gęstość) edytuj wyłącznie w `client/src/config/theme.ts`. Nie rozrzucaj hexów po komponentach.
+- Dane firmy (telefon, adres, mapa, kredyt AddPattern): `client/src/config/site.ts`.
+- Trzy presety: `classic` / `modern` / `elegant`. Panel u góry strony (`DevPanel`) przełącza je i zapisuje w `localStorage`.
+- Panel widać, gdy `VITE_SHOW_DEV_PANEL=true`. W DEV bez zmiennej też jest widoczny. Na FTP ustaw `false`.
+- Dark mode: klasa `dark` na `html`, przełącznik w navbarze.
+- i18n: `react-i18next`, domyślnie PL, pliki `client/src/i18n/locales/pl.json` i `en.json`.
+- Google Fonts ładują się z `googleFontsHref` presetu. Zmiana kroju = zmiana w `theme.ts`.

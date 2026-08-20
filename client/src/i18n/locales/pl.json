@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O mnie",
+    "sets": "Sety",
+    "gallery": "Galeria",
+    "contact": "Kontakt",
+    "menu": "Menu",
+    "close": "Zamknij"
+  },
+  "hero": {
+    "name": "MATT",
+    "title": "CLOUD MUSIC",
+    "tagline": "DEEP • SOULFUL • HOUSE • FUNKY",
+    "play": "Play",
+    "cassetteAlt": "Kaseta magnetofonowa"
+  },
+  "sets": {
+    "kicker": "Sety",
+    "title": "Sound Corners",
+    "subtitle": "Mixy z kolekcji — posłuchaj tutaj albo otwórz pełną playlistę na SoundCloud.",
+    "openSoundcloud": "SoundCloud",
+    "playerTitle": "Matt Cloud Music na SoundCloud",
+    "consentNeeded": "Odtwarzacz SoundCloud ładuje skrypty trzeciej strony. Zaakceptuj cookies marketingowe / zewnętrzne, aby go włączyć na tej stronie — albo otwórz mix na SoundCloud."
+  },
+  "slider": {
+    "kicker": "Klimat",
+    "title": "Winyl, sale, noce",
+    "subtitle": "Wybrane kadry z setów i analogowej strony projektu.",
+    "alts": {
+      "vinyl": "Matt gra na gramofonach Technics",
+      "club": "Live set w klubie — stoisko DJ i publiczność",
+      "decks": "Zbliżenie miksera i jog wheel"
+    }
+  },
+  "about": {
+    "kicker": "O mnie",
+    "title": "MATT — Matt Cloud Music",
+    "p1": "Nazywam się Arkadiusz, a gram jako MATT. Muzyka jest ze mną od dzieciństwa — zawsze była gdzieś obok, długo zanim pomyślałem o graniu dla kogoś innego. Z czasem ta ciekawość zmieniła się w coś więcej: zacząłem zbierać płyty, przekopywać stare, zapomniane nagrania, szukać rzeczy, których nikt jeszcze nie odkopał.",
+    "p2": "Od 2015 roku gram w barach, restauracjach, czasem w klubach — wtedy ta pasja wyszła z pokoju i zaczęła żyć na parkiecie.",
+    "p3": "MATT CLOUD MUSIC to mój projekt do dzielenia się tym, co codziennie znajduję w kolekcji i poza nią. To przestrzeń na wszystko, co dzieje się poza samym live setem — digging, rzadkie znaleziska, historie płyt, w tym folkowe i etniczne siódemki przywożone z podróży.",
+    "p4": "Sprzęt to osobny rozdział. Syntezatory, magnetofony, gramofony — zawsze ciągnęło mnie do analogu, do tego jak brzmi i jak się go używa. Z czasem zebrało się tego sporo, a w domu powstało małe studio, w którym mogę to testować i nagrywać. MATT CLOUD MUSIC pokazuje, co dzieje się za kulisami — zanim muzyka trafi na parkiet.",
+    "photoAlt": "Portret Matta",
+    "statSince": "grywa na żywo",
+    "statGear": "domowe studio",
+    "statDig": "poszukiwanie płyt"
+  },
+  "gallery": {
+    "kicker": "Galeria",
+    "title": "Kadry",
+    "subtitle": "Kliknij zdjęcie, aby otworzyć je w powiększeniu.",
+    "close": "Zamknij",
+    "prev": "Poprzednie",
+    "next": "Następne",
+    "alts": {
+      "hand": "Dłoń na kontrolerze DJ w świetle klubu",
+      "bass": "Gitara basowa i odręczne schematy sygnału",
+      "city": "Noc w mieście",
+      "vinyl": "Matt przy stoisku z winylem"
+    }
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "title": "Gdzie słuchać",
+    "subtitle": "SoundCloud i Instagram. Telefon i e-mail pojawią się tutaj, gdy będą gotowe.",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "soundcloud": "SoundCloud",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "createdBy": "Strona stworzona przez",
+    "privacy": "Polityka prywatności",
+    "rodo": "RODO",
+    "cookies": "Polityka cookies",
+    "cookieSettings": "Ustawienia cookies"
+  },
+  "cookies": {
+    "title": "Zgoda na pliki cookies",
+    "text": "Ta strona zapisuje niezbędne pliki w Twojej przeglądarce (język i wybór zgody). Odtwarzacz SoundCloud jest usługą zewnętrzną i ładuje się dopiero po pełnej zgodzie.",
+    "necessaryItem": "Niezbędne: język (lang) i zapis zgody (cookie-consent).",
+    "soundcloudItem": "Opcjonalne: widget SoundCloud (cookies i skrypty SoundCloud Ltd.).",
+    "accept": "Akceptuję wszystkie",
+    "necessary": "Tylko niezbędne",
+    "checkbox": "Potwierdzam, że zapoznałem(-am) się z informacją RODO, polityką prywatności i polityką cookies, w tym z osadzaniem SoundCloud."
+  },
+  "legal": {
+    "disclaimer": "To wzór dokumentów na potrzeby strony wizytówki. Przed publikacją warto skonsultować treść z prawnikiem.",
+    "back": "Wróć do strony głównej",
+    "rodoTitle": "Informacja RODO",
+    "privacyTitle": "Polityka prywatności",
+    "cookiesTitle": "Polityka plików cookies",
+    "rodo": {
+      "admin": "Administratorem danych osobowych jest {{name}}.",
+      "email": "Kontakt: {{email}}.",
+      "p1": "Dane przetwarzamy, gdy napiszesz e-mail, zadzwonisz albo skorzystasz z odtwarzacza SoundCloud po wyrażeniu zgody. Nie prowadzimy kont użytkowników ani sklepu.",
+      "p2": "Podstawy prawne: art. 6 ust. 1 lit. a RODO (zgoda — cookies opcjonalne i SoundCloud), lit. b (odpowiedź na zapytanie) oraz lit. f (niezbędne działanie strony, np. zapamiętanie języka).",
+      "p3": "Dane nie są sprzedawane. Mogą być powierzane dostawcy hostingu oraz — po zgodzie — SoundCloud Ltd. (spoza EOG, z zabezpieczeniami przewidzianymi przez tego dostawcę).",
+      "p4": "Przysługują Państwu następujące prawa:",
+      "rights": {
+        "access": "dostęp do danych",
+        "rectify": "sprostowanie",
+        "erase": "usunięcie",
+        "limit": "ograniczenie przetwarzania",
+        "port": "przenoszenie danych",
+        "object": "sprzeciw",
+        "complaint": "skarga do Prezesa UODO"
+      },
+      "more": "Szczegóły znajdziesz w <privacy>polityce prywatności</privacy> i <cookies>polityce cookies</cookies>."
+    },
+    "privacy": {
+      "p1": "Strona Matt Cloud Music jest wizytówką artystyczną. Nie zbieramy kont, newslettera ani formularza kontaktowego na serwerze.",
+      "p2": "W przeglądarce mogą być zapisane: wybrany język oraz decyzja o cookies. To dane techniczne, nie profil marketingowy prowadzony przez nas.",
+      "p3": "Jeśli skontaktujesz się e-mailem lub telefonem, treść wiadomości służy wyłącznie odpowiedzi. Nie przekazujemy jej dalej, poza tym, co wynika z działania poczty lub hostingu.",
+      "p4": "Po wyrażeniu zgody strona może załadować odtwarzacz SoundCloud. SoundCloud samodzielnie przetwarza dane zgodnie ze swoją polityką:",
+      "scLink": "Polityka prywatności SoundCloud",
+      "contact": "Kontakt w sprawie danych: {{email}}."
+    },
+    "cookies": {
+      "p1": "Cookies (i podobne mechanizmy, np. localStorage) to małe pliki albo wpisy w przeglądarce. Używamy ich w zakresie opisanym poniżej.",
+      "p2": "Zgody możesz zmienić w stopce strony („Ustawienia cookies”). Odmowa opcjonalnych cookies nie blokuje przeglądania strony, ale wyłącza wbudowany player.",
+      "p3": "Cookies podmiotów trzecich (SoundCloud) są poza naszą pełną kontrolą. Czas ich życia i zakres ustala SoundCloud.",
+      "colName": "Nazwa",
+      "colType": "Rodzaj",
+      "colPurpose": "Cel",
+      "necessary": "Niezbędne",
+      "third": "Zewnętrzne / po zgodzie",
+      "rowLang": "Zapamiętanie języka interfejsu (PL/EN).",
+      "rowConsent": "Zapamiętanie wyboru zgody na cookies.",
+      "rowSc": "Odtwarzanie mixów, statystyki i cookies wg zasad SoundCloud."
+    }
+  },
+  "theme": {
+    "lang": "Język",
+    "change": "Zmień motyw",
+    "font": "Czcionka",
+    "motionOn": "Animacja tła: włączona",
+    "motionOff": "Animacja tła: wyłączona"
+  },
+  "common": {
+    "skip": "Przejdź do treści"
+  }
+}
