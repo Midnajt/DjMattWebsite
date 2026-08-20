@@ -24,6 +24,6 @@ export const site = {
   mapLink: "",
   addPattern: {
     name: "AddPattern Marcin Krzysztoszek",
-    url: "https://midnajt.github.io/AddPattern.github.io/",
+    url: "https://addpattern.pl",
   },
 } as const;
