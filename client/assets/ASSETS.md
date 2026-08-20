@@ -17,12 +17,12 @@ Podmieniając plik zachowaj **tę samą nazwę**, albo zaktualizuj import w `cli
 | `gallery-3.jpg` | Galeria, pozycja 3 | 4:3 |
 | `gallery-4.jpg` | Galeria, pozycja 4 | 4:3 |
 
-Źródło bieżących zdjęć: folder `new assets/` w korzeniu repo + `cassette.png` z mattcloudmusic.pl.
+Źródło bieżących zdjęć: katalog `client/assets/` (kaseta z mattcloudmusic.pl).
 
 ## `client/public/images/` — bez hasha Vite, ścieżka stała
 
 | Plik | Zastosowanie |
 | --- | --- |
-| `og-image.jpg` | Open Graph / Facebook, Messenger (`index.html` → `og:image`). Źródło: `new assets/557623939_…_n.jpg` |
+| `og-image.jpg` | Open Graph / Facebook, Messenger (`index.html` → `og:image`) |
 
 `favicon.svg` leży w `client/public/favicon.svg`.
